@@ -30,6 +30,7 @@ header {
   h1 a {
     font: bold 36px/50px "Pacifico";
     color: $font-color;
+    text-shadow: 1px 1px 1px rgb(6, 37, 38);
   }
 
   #gnb {
@@ -41,6 +42,7 @@ header {
       a {
         font: 18px/1 "Pangolin";
         color: $font-color;
+        text-shadow: 1px 1px 1px rgb(6, 37, 38);
 
         // 자간
         letter-spacing: 1px;
@@ -57,6 +59,7 @@ header {
       a {
         font-size: 16px;
         color: $font-color;
+        text-shadow: 1px 1px 1px rgb(6, 37, 38);
       }
     }
   }
@@ -110,7 +113,7 @@ figure {
     p {
       font: normal 5vw/1 "Pacifico";
       color: $font-color;
-      text-shadow: 2px 4px 2px rgb(80, 89, 110);
+      text-shadow: 2px 4px 2px rgb(6, 37, 38);
     }
 
     ul {
@@ -130,6 +133,7 @@ figure {
           font: 20px/1 "Pangolin";
           color: $font-color;
           letter-spacing: 1px;
+          text-shadow: 1px 1px 1px rgb(6, 37, 38);
         }
       }
     }

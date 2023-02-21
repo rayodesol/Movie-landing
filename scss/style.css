@@ -31,6 +31,7 @@ header {
 header h1 a {
   font: bold 36px/50px "Pacifico";
   color: #ffffff;
+  text-shadow: 1px 1px 1px rgb(6, 37, 38);
 }
 header #gnb {
   display: flex;
@@ -41,6 +42,7 @@ header #gnb li {
 header #gnb li a {
   font: 18px/1 "Pangolin";
   color: #ffffff;
+  text-shadow: 1px 1px 1px rgb(6, 37, 38);
   letter-spacing: 1px;
 }
 header .sns {
@@ -52,6 +54,7 @@ header .sns li {
 header .sns li a {
   font-size: 16px;
   color: #ffffff;
+  text-shadow: 1px 1px 1px rgb(6, 37, 38);
 }
 header #snb {
   display: none;
@@ -85,7 +88,7 @@ figure .text {
 figure .text p {
   font: normal 5vw/1 "Pacifico";
   color: #ffffff;
-  text-shadow: 2px 4px 2px rgb(80, 89, 110);
+  text-shadow: 2px 4px 2px rgb(6, 37, 38);
 }
 figure .text ul {
   display: flex;
@@ -103,6 +106,7 @@ figure .text ul li strong {
   font: 20px/1 "Pangolin";
   color: #ffffff;
   letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgb(6, 37, 38);
 }
 
 footer {
