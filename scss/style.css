@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Pangolin&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #ffffff;
+  padding: 5vh 5vw;
+  z-index: 2;
+}
+header h1 a {
+  font: bold 36px/50px "Pacifico";
+  color: #ffffff;
+}
+header #gnb {
+  display: flex;
+}
+header #gnb li {
+  margin: 0px 40px;
+}
+header #gnb li a {
+  font: 18px/1 "Pangolin";
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+header .sns {
+  display: flex;
+}
+header .sns li {
+  margin: 0px 10px;
+}
+header .sns li a {
+  font-size: 16px;
+  color: #ffffff;
+}
+header #snb {
+  display: none;
+}
+header .btn-menu {
+  display: none;
+  color: #ffffff;
+}
+
+figure {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+figure video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+}
+figure .text {
+  position: absolute;
+  left: 6vw;
+  top: 50%;
+  transform: translateY(-50%);
+}
+figure .text p {
+  font: normal 5vw/1 "Pacifico";
+  color: #ffffff;
+  text-shadow: 2px 4px 2px rgb(80, 89, 110);
+}
+figure .text ul {
+  display: flex;
+  margin-top: 50px;
+}
+figure .text ul li {
+  margin: 0px 30px;
+}
+figure .text ul li i {
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+figure .text ul li strong {
+  font: 20px/1 "Pangolin";
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+footer {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  font: 15px/1 "Pangolin";
+  letter-spacing: 2px;
+  color: #ffffff;
+  padding: 5vh 0;
+}
+
+@media screen and (max-width: 968px) {
+  header #gnb {
+    display: none;
+  }
+  header .sns {
+    display: none;
+  }
+  header .btn-menu {
+    display: block;
+  }
+  header #snb {
+    display: block;
+  }
+  header #snb .sub-menu {
+    position: absolute;
+    right: 5vw;
+    background-color: rgb(11, 67, 69);
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    text-align: right;
+    padding: 10px 25px;
+    transition: 0.4s;
+  }
+  header #snb .sub-menu.hide {
+    opacity: 0;
+  }
+  header #snb .sub-menu li {
+    padding: 10px 0;
+    font: 16px/1 "Pangolin";
+  }
+  header #snb .sub-menu li a {
+    color: #ffffff;
+  }
+  header #snb .sub-menu li a i {
+    margin-left: 8px;
+  }
+  figure .text p {
+    font-size: 15vw;
+  }
+}/*# sourceMappingURL=style.css.map */

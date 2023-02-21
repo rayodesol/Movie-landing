@@ -1,0 +1,18 @@
+// RESET
+* {
+  margin: 0;
+  padding: 0;
+
+  // 내가 정한 사이즈가 전체 크기이게
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  // color: white;
+}
