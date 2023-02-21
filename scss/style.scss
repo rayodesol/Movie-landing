@@ -72,6 +72,7 @@ header {
     // 반응형일 때 쓰므로, 사라지게
     display: none;
     color: $font-color;
+    text-shadow: 1px 1px 1px rgb(6, 37, 38);
   }
 }
 
