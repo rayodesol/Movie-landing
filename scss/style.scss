@@ -6,6 +6,7 @@
 
 // COLOR
 $font-color: #ffffff;
+$outline-color: rgb(2, 60, 62);
 
 // COMMON
 body {
@@ -40,9 +41,11 @@ header {
       margin: 0px 40px;
 
       a {
-        font: 18px/1 "Pangolin";
+        font: 20px/1 "Pangolin";
         color: $font-color;
-        text-shadow: 1px 1px 1px rgb(6, 37, 38);
+        text-shadow: -1px -1px 0 $outline-color, 1px -1px 0 $outline-color,
+          -1px 1px 0 $outline-color, 1px 1px 0 $outline-color;
+        // text-shadow: 1px 1px 1px rgb(6, 37, 38);
 
         // 자간
         letter-spacing: 1px;

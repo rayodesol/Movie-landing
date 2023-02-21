@@ -40,9 +40,9 @@ header #gnb li {
   margin: 0px 40px;
 }
 header #gnb li a {
-  font: 18px/1 "Pangolin";
+  font: 20px/1 "Pangolin";
   color: #ffffff;
-  text-shadow: 1px 1px 1px rgb(6, 37, 38);
+  text-shadow: -1px -1px 0 rgb(2, 60, 62), 1px -1px 0 rgb(2, 60, 62), -1px 1px 0 rgb(2, 60, 62), 1px 1px 0 rgb(2, 60, 62);
   letter-spacing: 1px;
 }
 header .sns {
